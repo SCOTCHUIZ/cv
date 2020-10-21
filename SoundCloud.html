@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title>My SoundCloud Mix</title>
+		<link rel="icon" href="https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico">
+	<style media="screen">
+		html {
+			height: 100%;
+		}
+
+		body {
+			background: rgb(16, 227, 207);
+			background: linear-gradient(125deg, rgba(16, 227, 207, 1) 0%, rgba(12, 50, 232, 1) 15%, rgba(255, 128, 0, 1) 53%, rgba(255, 99, 34, 1) 63%, rgba(255, 0, 151, 1) 96%);
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<iframe id="myrandomiframe" width="100%" height="450" scrolling="no" frameborder="no" src="" allow="autoplay"></iframe>
+
+<script type="text/javascript">
+	document.getElementById("myrandomiframe").setAttribute("src","https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/708434997%3Fsecret_token%3Ds-tscM1xPQlfc&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&start_track=" + (Math.floor(Math.random() * 35) + 1))
+
+</script>
+
+</body>
+
+</html>
